@@ -1,0 +1,31 @@
+div.meveto-error-box-no-user {
+  font-size: 16px;
+  color: red;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+div.meveto-container div.meveto-form-element {
+  display: flex !important;
+  flex-direction: column !important;
+  margin: 2.5rem 0 !important;
+}
+div.meveto-container label.meveto-label {
+  margin: 0 !important;
+  margin-bottom: 5px !important;
+  color: #535353 !important;
+  font-size: 1.5rem !important;
+  font-weight: unset !important;
+}
+div.meveto-container div.meveto-form-element input {
+  margin: 0 !important;
+  padding: 1.2rem !important;
+  font-size: 1.4rem !important;
+  border: 1px solid #535353 !important;
+  outline: none !important;
+  border-radius: 5px !important;
+  font-weight: unset !important;
+}
+div.meveto-container div.meveto-form-element input:focus,
+div.meveto-container div.meveto-form-element input:active {
+  outline: none;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "meveto/passwordless-authentication",
+  "description": "Meveto's OAuth client plugin for the integration of WordPress based websites with Meveto to use passwordless authentication.",
+  "keywords": [
+    "meveto",
+    "oauth",
+    "passwordless",
+    "authentication"
+  ],
+  "type": "wordpress-plugin",
+  "homepage": "https://meveto.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zia U Rehman Khan",
+      "email": "zmajrohi323@gmail.com",
+      "homepage": "https://meveto.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "pusher/pusher-php-server": "^4.1",
+    "meveto/meveto-php-sdk": "^1.5",
+    "composer/installers": "^1.10"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0",
+    "analog/analog": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Meveto\\": "."
+    }
+  }
+}
